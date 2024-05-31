@@ -1,10 +1,6 @@
 import warnings
 warnings.filterwarnings("ignore")
 
-import metric6a
-
-import infer
-
 import mmcv
 import os
 from pathlib import Path
@@ -12,6 +8,9 @@ import time
 import pandas as pd
 import argparse
 from tqdm import tqdm
+
+from lineformer import infer
+from lineformer import metric6a
 
 
 def get_results(img_dir, annot_dir, post_proc):

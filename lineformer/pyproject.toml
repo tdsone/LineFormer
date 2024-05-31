@@ -1,0 +1,15 @@
+[project]
+name = "lineformer"
+version = "2024.5.31"
+description = "Extract point coordinates from line charts"
+dependencies = [ 
+    "openmim",
+    "chardet",
+    "scikit-image",
+    "matplotlib",
+    "opencv-python",
+    "pillow",
+    "scipy==1.9.3",
+    "bresenham",
+    "tqdm"
+]
